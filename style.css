@@ -117,3 +117,20 @@ img
     animation-delay: 2.5s;
     width: 35px;
 }
+@media (max-width: 516px)
+{
+    img{
+        width: 200px;
+        left: 135px;
+    }
+    .black_bol{
+        width: 270px;
+        
+    }
+    @keyframes example {
+        0%  
+        {left: 220px;}
+        100%  
+        {left: -120px;}
+    }
+}
